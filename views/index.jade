@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  #card
+    h3 Create a post
+    form#createForm
+      label(for="author") Author
+        input#author(type="text", placeholder="author")
+      label(for="title") Post title
+        input#title(type="text", placeholder="post title")
+      label(for="body")
+        textarea#body(cols="50", rows="20", resize="false", placeholder="Post content here ...")
+      button#createBtn(type="button") Create
+
+  #card
+    h3 Search posts by: author, title, content
+    form#searchForm
+      label(for="search")
+        input#search(type="text", placeholder="search term here")
+      button#searchBtn(type="button") Search
+    #results

@@ -1,0 +1,23 @@
+body {
+  padding: 50px;
+  font: 14px "Open Sans", "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  margin-left: 10px;
+  padding: 5px;
+}
+
+#card {
+  float: left;
+  margin-right: 100px;
+}
